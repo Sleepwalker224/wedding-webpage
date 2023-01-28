@@ -1,0 +1,34 @@
+/* ==== PRIMARY BASIC STYLES ==== */
+
+* {
+ box-sizing: border-box;
+}
+
+h1, h2, h3,
+ul, li,
+p,
+img {
+  margin-bottom: 2.1rem;
+}
+
+.location, .program, .gifts, .qa, .contact {
+  text-align: center; 
+  width: 100%;
+  margin: 2rem auto;
+  padding: .3rem 1rem;
+}
+
+body {
+  background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png) center;
+  color: #444349;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+}
+
+a{
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+}
