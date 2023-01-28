@@ -30,9 +30,8 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 5.8rem;
+  font-size: 3rem;
   color: #d2ba87;
-  border-bottom: 0rem;
 }
 
 h2 {
@@ -62,17 +61,39 @@ a:hover {
   background-size: cover;
   height: 100vh;
   color: hsla(0,0%,100%,.9);
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: 'Libre Baskerville', serif;
   text-align: center;
   display: table;
-  width: 100%;
+  width: 100vw;
+}
+
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
 }
 
 .border {
   margin: 0 auto;
   padding: .625rem;
   background: hsla(100,0%,0%,.5);
+}
+
+@media (min-width: 768px) {
+
+  .border {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .border h1 {
+    font-size: 7rem;
+  }
+
 }
 
 .wrapper {
@@ -82,8 +103,15 @@ a:hover {
 
 .tagline {
   letter-spacing: .15rem;
-  margin-bottom: 0.8rem;
-  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
 }
 
 .tagline::after {
@@ -96,7 +124,7 @@ a:hover {
 }
 
 .date {
-  margin-top: -3rem;
+  margin-top: -2rem;
 }
 
 .date::before,
@@ -108,6 +136,29 @@ a:hover {
   width: 2rem;
   vertical-align: middle;
   margin: .0.5rem;
+}
+
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+}
+
+
+@media (min-width: 768px) {
+
+  .hero-text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .hero-text h1 {
+    font-size: 7rem;
+  }
+
 }
 
 
@@ -136,6 +187,22 @@ a:hover {
 }
 
 
+@media (min-width: 768px) {
+
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb::after {
+    display: none;
+  }
+
+}
+
+
 /* ==== "PROGRAM" STYLES ==== */
 
 .program {
@@ -144,6 +211,15 @@ a:hover {
   font-family: 'Muli', sans-serif;
   width: 100vw;
   text-align: left;
+}
+
+@media (min-width: 768px) {
+
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
 }
 
 .program p {
@@ -193,6 +269,10 @@ a:hover {
   font-family: 'Libre Baskerville', serif;
 }
 
+.faq p {
+  text-align: left;
+}
+
 .faq::after {
   display: block;
   content: "";
@@ -208,6 +288,26 @@ a:hover {
 
 .answer {
   margin-bottom: 1.1rem;
+}
+
+@media (min-width: 768px) {
+
+  .faq {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .faq::after {
+    display: none;
+  }
+
+  .faq h3 {
+    text-align: left;
+  }
+
 }
 
 
@@ -239,4 +339,12 @@ footer {
 footer small {
   letter-spacing: .025rem;
   display: block;
+}
+
+@media (min-width: 768px) {
+
+  footer {
+    min-height: 7vh;
+  }
+
 }
