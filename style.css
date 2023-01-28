@@ -42,6 +42,7 @@ h2 {
 h3 {
   font-size: 1.35rem;
   font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
 }
 
 a{
@@ -53,6 +54,7 @@ a:hover {
   color: #eda087;
   transition: color .15sec ease-in-out; 
 }
+
 
 /* ==== HEADER STYLES ==== */
 
@@ -107,4 +109,24 @@ a:hover {
   width: 2rem;
   vertical-align: middle;
   margin: .0.5rem;
+}
+
+
+/* ==== "LOCATION" STYLES ==== */
+
+.blurb {
+  font-family: 'Muli', serif;
+}
+
+.blurb img {
+  height: 7rem;
+}
+
+.blurb::after {
+  display: block;
+  content: "";
+  background-color: black;
+  height: .1875rem;
+  width: 13vw;
+  margin: 1.5rem auto;
 }
