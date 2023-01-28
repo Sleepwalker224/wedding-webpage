@@ -8,7 +8,7 @@ h1, h2, h3,
 ul, li
 p,
 img {
-  margin-bottom: 2.1rem;
+  margin-bottom: 1.5rem;
 }
 
 .location, .program, .gifts, .qa, .contact {
@@ -208,4 +208,35 @@ a:hover {
 
 .answer {
   margin-bottom: 1.1rem;
+}
+
+
+/* ==== CONTACT STYLES ==== */
+
+.contact p {
+  line-height: 1.8rem;
+}
+
+
+/* ==== FOOTER STYLES ==== */
+
+footer {
+  background-color: #606060;
+  height: 4rem;
+  text-align: center;
+  display: table;
+  width: 100vw;
+  font-family: 'Muli', sans-serif;
+  font-size: .800rem;
+  color: white;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer small {
+  letter-spacing: .025rem;
+  display: block;
 }
