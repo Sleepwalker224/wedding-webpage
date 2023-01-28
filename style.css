@@ -31,10 +31,17 @@ h1, h2 {
 
 h1 {
   font-size: 5.8rem;
+  color: #d2ba87;
+  border-bottom: 0rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.54rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+  font-family: 'Libre Baskerville', serif;
 }
 
 a{
@@ -47,3 +54,57 @@ a:hover {
   transition: color .15sec ease-in-out; 
 }
 
+/* ==== HEADER STYLES ==== */
+
+.cover {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  color: hsla(0,0%,100%,.9);
+  font-size: 1.25rem;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+
+.border {
+  margin: 0 auto;
+  padding: .625rem;
+  background: hsla(100,0%,0%,.5);
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tagline {
+  letter-spacing: .15rem;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: hsla(0,0%,100%,.9);
+  height: 1px;
+  width: 12.5rem;
+  margin: .5rem auto;
+}
+
+.date {
+  margin-top: -3rem;
+}
+
+.date::before,
+.date::after{
+  display: inline-block;
+  content: "";
+  background-color: hsla(0,0%,100%,.9);
+  height: 1px;
+  width: 2rem;
+  vertical-align: middle;
+  margin: .0.5rem;
+}
