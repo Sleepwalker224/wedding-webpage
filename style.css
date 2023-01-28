@@ -42,7 +42,6 @@ h2 {
 h3 {
   font-size: 1.35rem;
   font-family: 'Libre Baskerville', serif;
-  font-weight: bold;
 }
 
 a{
@@ -119,6 +118,10 @@ a:hover {
   color: #444349;
 }
 
+.blurb h3 {
+  font-weight: bold;
+}
+
 .blurb img {
   height: 7rem;
 }
@@ -159,4 +162,50 @@ a:hover {
 }
 
 
+/* ==== GIFTS STYLES ==== */
 
+.gifts img {
+  height: 7rem;
+  margin-top: 12px;
+  margin: 1rem auto;
+}
+
+.gifts p:last-child { 
+  margin-bottom: 0;
+}
+
+
+/* ==== FAQ STYLES ==== */
+
+.qa {
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: 'Muli', sans-serif;
+  width: 100vw;
+  text-align: center;
+}
+
+.qa h2 {
+  margin-top: 1rem;
+}
+
+.qa h3 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.faq::after {
+  display: block;
+  content: "";
+  background-color: #d2ba87;
+  height: .1875rem;
+  width: 30vw;
+  margin: 1.5rem auto;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  margin-bottom: 1.1rem;
+}
