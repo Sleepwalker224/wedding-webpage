@@ -25,10 +25,25 @@ body {
   line-height: 1.5;
 }
 
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+h1 {
+  font-size: 5.8rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
 a{
   color: #bd806e;
+  text-decoration: none;
 }
 
 a:hover {
   color: #eda087;
+  transition: color .15sec ease-in-out; 
 }
+
